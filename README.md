@@ -1,8 +1,8 @@
-> git clone https://github.com/kikialway/bot-ghalyh
+> git clone https://github.com/Tersakiti404-cyber/FajarBOTV4.0
 
 
 
-> cd bot-ghalyh
+> cd FajarBOTV4.0
 
 
 
