@@ -1,6 +1,6 @@
-const  XBOT = 'Ghalyh Bot'; // Nama Bot Whatsapp
-const instagram = 'https://instagram.com/ghlyhalamn'; // Nama Instagramlu cok
-const nomer = 'http://wa.me/+6285766853909'; // Nomor whatsapplu cok
+const  XBOT = 'Fajar Bot'; // Nama Bot Whatsapp
+const instagram = 'https://instagram.com/mhmdfjralfarizi_'; // Nama Instagramlu cok
+const nomer = 'http://wa.me/+6281333782061'; // Nomor whatsapplu cok
 const aktif = 'Tergantung kuota'; // Kapan bot lu aktif
 const groupwa = 'comming soon'; // OFFICIAL GRUP LU 1
 const youtube = 'coming sun'; 
@@ -21,9 +21,9 @@ const speed = require('performance-now');
 const readTextInImage = require('./lib/ocr')
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:affis\n' // full name
+            + 'FN:Fajar\n' // full name
             + 'ORG:Owner  XBOT Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=6282334297175:+62 823-3429-7175\n' // WhatsApp ID + phone number
+            + 'TEL;type=CELL;type=VOICE;waid=6281333782061:+62 813-3378-2061\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 
 const
@@ -143,12 +143,12 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '#owner'){
-conn.sendMessage(id, 'Owner XBOT http://wa.me/+6285766853909' ,MessageType.text);
+conn.sendMessage(id, 'Owner XBOT http://wa.me/+6281333782061' ,MessageType.text);
 }
-else if (text == 'affis'){
-conn.sendMessage(id, 'Aku BOT nya Ghalyh' ,MessageType.text);
+else if (text == 'Fajar'){
+conn.sendMessage(id, 'Aku BOT nya Fajar' ,MessageType.text);
 }
-else if (text == 'audio'){
+else if (text == 'Debby'){
 conn.sendMessage(id, 'pacar owner ihh' ,MessageType.text);
 }
 else if (text == 'bangsat'){
@@ -1061,10 +1061,10 @@ else if (text == '#foto'){
 conn.sendMessage(id, 'kirim .foto cewek/cowok\n\nContoh: .foto cewek' ,MessageType.text);
 }
 else if (text == '#menu'){
-conn.sendMessage(id, ' 🔍Thanks Telah Menggunakan BOT *Ghalyh Bot* , Follow Instagram Mimin Yah🔍� : https://instagram.com/ghlyhalamn' ,MessageType.text);
+conn.sendMessage(id, ' 🔍Thanks Telah Menggunakan BOT *Ghalyh Bot* , Follow Instagram Mimin Yah🔍� : https://instagram.com/mhmdfjralfarizi_' ,MessageType.text);
 }
 else if (text == '#info'){
-conn.sendMessage(id, ' 🔍Thanks Telah Menggunakan BOT *Ghalyh Bot* , Follow Instagram Mimin Yah🔍� : https://instagram.com/ghlyhalamn' ,MessageType.text);
+conn.sendMessage(id, ' 🔍Thanks Telah Menggunakan BOT *Ghalyh Bot* , Follow Instagram Mimin Yah🔍� : https://instagram.com/mhmdfjralfarizi_' ,MessageType.text);
 }
 if (messageType == 'imageMessage')
    {
